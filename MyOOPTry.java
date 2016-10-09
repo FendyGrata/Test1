@@ -82,7 +82,7 @@ public class MyOOPTry {
         int ulang = 1, x;
         do {
         do {
-            System.out.print("Menu:\n1.deposit \n2.withdraw\n3.check balance\n4.exit");
+            System.out.print("\n\nMenu:\n1.deposit \n2.withdraw\n3.check balance\n4.exit");
             System.out.print("\ninput:");
             x = input.nextInt();
         } while (x < 0 || x > 5);
